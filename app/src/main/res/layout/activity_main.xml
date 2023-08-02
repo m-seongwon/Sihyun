@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="320dp"
+        android:layout_height="274dp" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="299dp"
+        android:layout_height="318dp" />
+
+    <Button
+        android:id="@+id/showSelectedDateTimeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="선택한 날짜와 시간 보기" />
+
+    <TextView
+        android:id="@+id/selectedDateTimeTextView"
+        android:layout_width="370dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:textSize="20sp" />
+
+</LinearLayout>
